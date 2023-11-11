@@ -1,0 +1,46 @@
+.container {
+  text-align: center;
+}
+.title {
+  color: white;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title span {
+
+  color: aqua;
+  padding-left: 15px;
+}
+.reset {
+  width: 10rem;
+  height: 4rem;
+  border: 1px solid aqua;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50px;
+  color: white;
+  background: rgb(19, 19, 19);
+  font-size: larger;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+.board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200x;
+  width: 300x;
+  display: flex;
+}
+
+.boxes {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  background: rgb(158, 172, 31) (255, 247, 0);
+  border: 3px solid rgb(58, 70, 58);
+  border-radius: 12px;
+  cursor: pointer;
+}
